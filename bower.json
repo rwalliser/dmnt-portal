@@ -1,0 +1,17 @@
+{
+  "name": "dmnt-portal",
+  "description": "Systemdokumentation fuer den Bereich DMNT",
+  "main": "",
+  "authors": [
+    "rwalliser"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

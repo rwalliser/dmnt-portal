@@ -1,0 +1,41 @@
+var data = 
+[
+	{
+		"name" : "Nagios",
+		"bez" : "Mit Nagios werden alle Services, die im Ambari nicht vorhanden sind, überwacht",
+		"urls" : [
+			{"url" : "http://migzmca0.migros.ch/nagios"}
+		]
+	},
+	{
+		"name" : "Hannibal",
+		"bez" : "Mit Hannibal erhält man unter anderem eine Übersicht der Verteilung der Daten auf die Regions",
+		"urls" : [
+			{"url" : "http://migzmca0.migros.ch:8082/nifi"}
+		]
+	},
+	{
+		"name" : "Nifi-Jobserver",
+		"bez" : "Auf dem Nifi-Jobserver können Job's des Nifi-Management-Server gesteuert werden.",
+		"urls" : [
+			{"url" : "http://migzmca0.migros.ch:8082/nifi"}
+		]
+	},
+	{
+		"name" : "Nifi-Management-Server",
+		"bez" : "Auf dem Nifi-Management-Server werden die Workflows erstellt und den Nifi-Worker übergeben. (migzmcam.migros.ch, migzmcal.migros.ch)",
+		"urls" : [
+			{"url" : "http://migzmca0.migros.ch:8082/nifi"}
+		]
+	},
+	{
+		"name" : "Solar",
+		"bez" : "Das Audit-Log vom Ranger wird in die Solar-Search-Engine geschrieben",
+		"urls" : [
+			{"url" : "http://migzmcba.migros.ch:6083/solar"},
+			{"url" : "http://migzmcbb.migros.ch:6083/solar"},
+			{"url" : "http://migzmcbc.migros.ch:6083/solar"},
+			{"url" : "http://migzmcbd.migros.ch:6083/solar"}
+		]
+	}
+]
