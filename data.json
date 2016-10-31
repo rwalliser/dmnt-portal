@@ -11,7 +11,7 @@ var data =
 		"name" : "Hannibal",
 		"bez" : "Mit Hannibal erhält man unter anderem eine Übersicht der Verteilung der Daten auf die Regions",
 		"urls" : [
-			{"url" : "http://migzmca0.migros.ch:8082/nifi"}
+			{"url" : "http://migzmca0.migros.ch:9000"}
 		]
 	},
 	{
@@ -23,19 +23,19 @@ var data =
 	},
 	{
 		"name" : "Nifi-Management-Server",
-		"bez" : "Auf dem Nifi-Management-Server werden die Workflows erstellt und den Nifi-Worker übergeben. (migzmcam.migros.ch, migzmcal.migros.ch)",
+		"bez" : "Auf dem Nifi-Management-Server werden die Workflows erstellt und den Nifi-Worker übergeben. (migzmcam.migros.ch, migzmcan.migros.ch)",
 		"urls" : [
-			{"url" : "http://migzmca0.migros.ch:8082/nifi"}
+			{"url" : "http://migzmcal.migros.ch:8082/nifi"}
 		]
 	},
 	{
 		"name" : "Solar",
 		"bez" : "Das Audit-Log vom Ranger wird in die Solar-Search-Engine geschrieben",
 		"urls" : [
-			{"url" : "http://migzmcba.migros.ch:6083/solar"},
-			{"url" : "http://migzmcbb.migros.ch:6083/solar"},
-			{"url" : "http://migzmcbc.migros.ch:6083/solar"},
-			{"url" : "http://migzmcbd.migros.ch:6083/solar"}
+			{"url" : "http://migzmcba.migros.ch:6083/solr"},
+			{"url" : "http://migzmcbb.migros.ch:6083/solr"},
+			{"url" : "http://migzmcbc.migros.ch:6083/solr"},
+			{"url" : "http://migzmcbd.migros.ch:6083/solr"}
 		]
 	}
 ]
